@@ -17,23 +17,23 @@ The game is designed for fast play, clear UI feedback, and reliable history trac
 
 ### Main Menu
 
-![Main Menu](RocPaSors/tampilan_game/mainmenu.png)
+![Main Menu](tampilan_game/mainmenu.png)
 
 ### Match Start
 
-![Start Screen](RocPaSors/tampilan_game/start.png)
+![Start Screen](tampilan_game/start.png)
 
 ### Gameplay
 
-![Gameplay](RocPaSors/tampilan_game/gameplay.png)
+![Gameplay](tampilan_game/gameplay.png)
 
 ### Match Result
 
-![Match Result](RocPaSors/tampilan_game/matchresult.png)
+![Match Result](tampilan_game/matchresult.png)
 
 ### Match History
 
-![Match History](RocPaSors/tampilan_game/matchhistroylist.png)
+![Match History](tampilan_game/matchhistroylist.png)
 
 ## Install Guide
 
@@ -74,7 +74,7 @@ dotnet publish -c Release -r win-x64 --self-contained -o publish/win-x64
 
 ### Asset and Runtime Inclusion
 
-The project is configured to include all asset files under `RocPaSors\Assets\Images` and `RocPaSors\Assets\Sounds` in both build output and publish output. This ensures that UI assets, sound effects, and icon assets are available in the deployed package.
+The project is configured to include all asset files under `Assets\Images` and `Assets\Sounds` in both build output and publish output. This ensures that UI assets, sound effects, and icon assets are available in the deployed package.
 
 ### Installer Behavior
 
@@ -115,18 +115,17 @@ publish\win-x64\RocPaSors.exe
 
 In Visual Studio Code, install the C# extension and open the workspace at the repository root.
 
-- Use the VS Code debugger with the project `RocPaSors\RocPaSors.csproj`
+- Use the VS Code debugger with the project `RocPaSors.csproj`
 - Or run the .NET CLI commands in the integrated terminal
 
 A sample launch configuration is recommended but not required if you prefer terminal-based execution.
 
 ## Project Structure
 
-- `RocPaSors.sln` — solution file containing the main WPF game project and the installer project
-- `RocPaSors/RocPaSors.csproj` — WPF application project file
-- `RocPaSors/Assets/Images` — UI images and icon assets
-- `RocPaSors/Assets/Sounds` — sound effect assets
-- `RocPaSors/tampilan_game` — screenshot assets for documentation
+- `RocPaSors.csproj` — WPF application project file
+- `Assets/Images` — UI images and icon assets
+- `Assets/Sounds` — sound effect assets
+- `tampilan_game` — screenshot assets for documentation
 - `RocPaSors_Setup.iss` — Inno Setup installer script
 
 ## Notes for Developers
