@@ -15,17 +15,21 @@ The game is designed for fast play, clear UI feedback, and reliable history trac
 
 ## Screenshots
 
+### Start Menu
+
+![Start Screen](tampilan_game/start.png)
+
 ### Main Menu
 
 ![Main Menu](tampilan_game/mainmenu.png)
 
-### Match Start
-
-![Start Screen](tampilan_game/start.png)
-
 ### Gameplay
 
 ![Gameplay](tampilan_game/gameplay.png)
+
+![Gameplay](tampilan_game/win.png)
+![Gameplay](tampilan_game/tie.png)
+![Gameplay](tampilan_game/lose.png)
 
 ### Match Result
 
