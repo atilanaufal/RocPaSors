@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Images\LogoClear.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MainWindow - Copy.xaml.cs" />
+    <Compile Remove="MatchFinish.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="MatchFinish.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Images\**\*.*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Assets\Sounds\**\*.*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+
+</Project>
